@@ -31,7 +31,7 @@ public class BeerController {
     @GetMapping("/{beerId}")
     public ResponseEntity<BeerDTO> updateBeerById(@PathVariable UUID beerId) {
 
-        // Todo impl.ppppp
+        // Todo impl.pppppp
         return   ResponseEntity.noContent().build();
 
     }
