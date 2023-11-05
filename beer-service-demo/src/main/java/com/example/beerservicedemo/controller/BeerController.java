@@ -20,7 +20,7 @@ public class BeerController {
     }
 
 
-    @PostMapping()
+    @PostMapping("")
     public ResponseEntity saveNewBeer(@RequestBody BeerDTO beerDTO) {
 
         // Todo impl
@@ -28,7 +28,7 @@ public class BeerController {
     }
 
 
-    @GetMapping("/{beerId}")
+    @PutMapping("/{beerId}")
     public ResponseEntity<BeerDTO> updateBeerById(@PathVariable UUID beerId) {
 
         // Todo impl.pppppp
