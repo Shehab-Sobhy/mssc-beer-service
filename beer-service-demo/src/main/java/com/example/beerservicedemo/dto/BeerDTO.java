@@ -1,6 +1,6 @@
-package com.example.beerservicedemo.web.dto;
+package com.example.beerservicedemo.dto;
 
-import com.example.beerservicedemo.web.entity.BeerStyleEnum;
+import com.example.beerservicedemo.entity.BeerStyleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.example.beerservicedemo.web.model;
+package com.example.beerservicedemo.model;
 
-import com.example.beerservicedemo.web.dto.BeerDTO;
+import com.example.beerservicedemo.dto.BeerDTO;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 
