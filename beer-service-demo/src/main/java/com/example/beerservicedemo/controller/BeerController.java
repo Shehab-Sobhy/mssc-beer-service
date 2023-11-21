@@ -21,17 +21,18 @@ public class BeerController {
 
 
     @PostMapping("")
+
     public ResponseEntity saveNewBeer(@RequestBody BeerDTO beerDTO) {
 
         // Todo impl
-        return new ResponseEntity (HttpStatus.CREATED);
+        return  ResponseEntity.ok(HttpStatus.CREATED);
     }
 
 
     @PutMapping("/{beerId}")
-    public ResponseEntity<BeerDTO> updateBeerById(@PathVariable UUID beerId) {
+    public ResponseEntity<BeerDTO> updateBeerById(@PathVariable UUID beerId , @RequestBody BeerDTO beerDTO )  {
 
-        // Todo impl.pppppp
+        // Todo impl
         return   ResponseEntity.noContent().build();
 
     }
